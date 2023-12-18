@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;700&display=swap');
+
+:root {
+  --background-rgb: #101012;
+  --background-secondary-rgb: #cfd8d5;
+}
+
+body {
+  color: rgb(--background-secondary-rgb);
+  background: var(--background-rgb);
+  font-family: 'Afacad', sans-serif;
+}

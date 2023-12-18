@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gridWeb {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 3rem;
+}
+
+@media (max-width: 768px) {
+  .gridWeb {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .gridWeb {
+    grid-template-columns: 1fr;
+  }
+}
