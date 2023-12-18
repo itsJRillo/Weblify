@@ -58,7 +58,7 @@ export default function Heading() {
               />
             </svg>
 
-            <span>Añadir</span>
+            <span>Añadir web</span>
           </ButtonContainer>
         </Link>
       </div>
