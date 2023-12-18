@@ -57,8 +57,8 @@ function ListWebs() {
           clickable
           style={{ color: "white", padding: "10px", margin: "5px" }}
           size="small"
-          label="All"
-          color={selectedType === null ? "primary" : "default"}
+          label="Todo"
+          color={selectedType === null ? "error" : "default"}
           onClick={handleResetFilter}
           variant="outlined"
         />
@@ -68,7 +68,7 @@ function ListWebs() {
           style={{ color: "white", padding: "10px", margin: "5px" }}
           size="small"
           label="Ventas y marketing"
-          color={selectedType === "Ventas y marketing" ? "primary" : "default"}
+          color={selectedType === "Ventas y marketing" ? "error" : "default"}
           onClick={() => handleChipClick("Ventas y marketing")}
           variant="outlined"
         />
@@ -78,7 +78,7 @@ function ListWebs() {
           style={{ color: "white", padding: "10px", margin: "5px" }}
           size="small"
           label="Blog"
-          color={selectedType === "Blog" ? "primary" : "default"}
+          color={selectedType === "Blog" ? "error" : "default"}
           onClick={() => handleChipClick("Blog")}
           variant="outlined"
         />
@@ -88,7 +88,7 @@ function ListWebs() {
           style={{ color: "white", padding: "10px", margin: "5px" }}
           size="small"
           label="Salud y bienestar"
-          color={selectedType === "Salud y bienestar" ? "primary" : "default"}
+          color={selectedType === "Salud y bienestar" ? "error" : "default"}
           onClick={() => handleChipClick("Salud y bienestar")}
           variant="outlined"
         />
@@ -98,17 +98,17 @@ function ListWebs() {
           style={{ color: "white", padding: "10px", margin: "5px" }}
           size="small"
           label="Desarrollo"
-          color={selectedType === "Desarrollo" ? "primary" : "default"}
+          color={selectedType === "Desarrollo" ? "error" : "default"}
           onClick={() => handleChipClick("Desarrollo")}
           variant="outlined"
         />
         <Chip
           icon={<DesignServices />}
           clickable
-          style={{ color: "white", padding: "10px", margin: "5px" }}
+          style={{ color: "white", padding: "10px", margin: "5px"}}
           size="small"
           label="Diseño"
-          color={selectedType === "Diseño" ? "primary" : "default"}
+          color={selectedType === "Diseño" ? "error" : "default"}
           onClick={() => handleChipClick("Diseño")}
           variant="outlined"
         />

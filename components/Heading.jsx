@@ -12,7 +12,7 @@ const ButtonContainer = styled.button`
   padding: 10px;
   margin: 10px;
   border: none;
-  background-color: #08080a;
+  background-color: #FF0000;
   border-radius: 50px;
   color: #ffffff;
   font-weight: bold;
@@ -21,7 +21,8 @@ const ButtonContainer = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #cfd8d5;
+    background-color: #fff;
+    color: #FF0000
   }
 `;
 
