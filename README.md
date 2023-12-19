@@ -1,0 +1,3 @@
+# Weblify
+La página web desarrollada en Next.js facilita a los usuarios el acceso a un formulario alojado en Typeform. Este formulario está vinculado a una base de datos en Supabase mediante Webhooks, posibilitando la actualización en tiempo real de la página con las respuestas de los usuarios. En esencia, la plataforma permite a los usuarios completar el formulario, guarda sus respuestas en Supabase y utiliza Webhooks para reflejar automáticamente esas respuestas en la página, ofreciendo así una visualización dinámica de la información actualizada de los sitios web de los usuarios.
+[Acceso a la web](https://weblify.vercel.app)
